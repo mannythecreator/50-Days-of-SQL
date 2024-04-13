@@ -1,4 +1,4 @@
-### Use Database to Find Customer Referee
+# Use Database to Find Customer Referee
 
 [LeetCode](https://leetcode.com/problems/find-customer-referee/)
 
