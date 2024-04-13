@@ -15,19 +15,21 @@ Table: Customer
 In SQL, id is the primary key column for this table.
 Each row of this table indicates the id of a customer, their name, and the id of the customer who referred them.
 
+## Task
 Find the names of the customer that are not referred by the customer with id = 2.
 Return the result table in any order.
 
+### Database Example
 ```
 Input:
-Create table If Not Exists Customer (id int, name varchar(25), referee_id int)
+CREATE table If Not Exists Customer (id int, name varchar(25), referee_id int)
 Truncate table Customer
-insert into Customer (id, name, referee_id) values ('1', 'Will', 'None')
-insert into Customer (id, name, referee_id) values ('2', 'Jane', 'None')
-insert into Customer (id, name, referee_id) values ('3', 'Alex', '2')
-insert into Customer (id, name, referee_id) values ('4', 'Bill', 'None')
-insert into Customer (id, name, referee_id) values ('5', 'Zack', '1')
-insert into Customer (id, name, referee_id) values ('6', 'Mark', '2')
+INSERT into Customer (id, name, referee_id) values ('1', 'Will', 'None')
+INSERT into Customer (id, name, referee_id) values ('2', 'Jane', 'None')
+INSERT into Customer (id, name, referee_id) values ('3', 'Alex', '2')
+INSERT into Customer (id, name, referee_id) values ('4', 'Bill', 'None')
+INSERT into Customer (id, name, referee_id) values ('5', 'Zack', '1')
+INSERT into Customer (id, name, referee_id) values ('6', 'Mark', '2')
 ```
 ```
 Table: Customer:
@@ -42,6 +44,8 @@ Table: Customer:
 | 6  | Mark | 2          |
 +----+------+------------+
 ```
+
+## Code Solution
 ```
 # Write your MySQL query statement below
 SELECT name FROM Customer
