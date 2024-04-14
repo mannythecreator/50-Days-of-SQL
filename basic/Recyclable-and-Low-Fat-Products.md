@@ -5,7 +5,6 @@ Runtime beat 77% of MySQL users
 
 <img width="400" alt="image" src="https://github.com/mannythecreator/SQL-Practice/assets/60325078/625ca259-0f5d-476a-9027-75f42174c40b">
 
-
 ```
 Table: Products
 +-------------+---------+
