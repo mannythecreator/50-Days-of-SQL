@@ -1,4 +1,6 @@
 # Combine Two Tables
+\#MySQL
+
 [LeetCode](https://leetcode.com/problems/combine-two-tables/)
 
 ```
