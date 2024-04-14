@@ -1,4 +1,5 @@
 # Use Database to Find Customer Referee
+\#MySQL
 
 [LeetCode](https://leetcode.com/problems/find-customer-referee/)
 
@@ -47,7 +48,6 @@ Table: Customer:
 
 ## Code Solution
 ```
-# Write your MySQL query statement below
 SELECT name FROM Customer
 WHERE referee_id != 2 OR referee_id is null
 ```
