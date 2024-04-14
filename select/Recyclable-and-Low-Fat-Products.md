@@ -1,4 +1,4 @@
-# Recyclable and Low Fat Products
+# Find Recyclable and Low Fat Products
 \#MySQL
 
 [LeetCode](https://leetcode.com/problems/recyclable-and-low-fat-products/?envType=study-plan-v2&envId=top-sql-50)
