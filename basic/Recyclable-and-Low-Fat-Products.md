@@ -1,5 +1,5 @@
 # Recyclable and Low Fat Products
-###### MySQL
+\#MySQL
 
 Runtime beat 77% of MySQL users
 
