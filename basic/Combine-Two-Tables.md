@@ -34,6 +34,16 @@ Return the result table in any order.
 
 ## Database
 ```
+CREATE table If Not Exists Person (personId int, firstName varchar(255), lastName varchar(255))
+CREATE table If Not Exists Address (addressId int, personId int, city varchar(255), state varchar(255))
+TRUNCATE table Person
+INSERT into Person (personId, lastName, firstName) values ('1', 'Wang', 'Allen')
+INSERT into Person (personId, lastName, firstName) values ('2', 'Alice', 'Bob')
+TRUNCATE table Address
+INSERT into Address (addressId, personId, city, state) values ('1', '2', 'New York City', 'New York')
+INSERT into Address (addressId, personId, city, state) values ('2', '3', 'Leetcode', 'California')
+```
+```
 Person table:
 +----------+----------+-----------+
 | personId | lastName | firstName |
@@ -49,16 +59,6 @@ Address table:
 | 1         | 2        | New York City | New York   |
 | 2         | 3        | Leetcode      | California |
 +-----------+----------+---------------+------------+
-
-SQL Schema
-CREATE table If Not Exists Person (personId int, firstName varchar(255), lastName varchar(255))
-CREATE table If Not Exists Address (addressId int, personId int, city varchar(255), state varchar(255))
-TRUNCATE table Person
-INSERT into Person (personId, lastName, firstName) values ('1', 'Wang', 'Allen')
-INSERT into Person (personId, lastName, firstName) values ('2', 'Alice', 'Bob')
-TRUNCATE table Address
-INSERT into Address (addressId, personId, city, state) values ('1', '2', 'New York City', 'New York')
-INSERT into Address (addressId, personId, city, state) values ('2', '3', 'Leetcode', 'California')
 ```
 ## Code Solution
 ```
