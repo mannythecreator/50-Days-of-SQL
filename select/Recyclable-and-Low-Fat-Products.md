@@ -1,5 +1,5 @@
 # Find Recyclable and Low Fat Products
-\#MySQL \#Oracle \#MSSQLServer \#PostgreSQL
+\#MySQL \#Oracle \#MSSQLServer \#PostgreSQL \#Python
 
 [LeetCode](https://leetcode.com/problems/recyclable-and-low-fat-products/?envType=study-plan-v2&envId=top-sql-50)
 
@@ -58,6 +58,14 @@ WHERE low_fats = 'Y' AND recyclable = 'Y';
 --- PostgreSQL
 SELECT product_id FROM Products
 WHERE low_fats = 'Y' AND recyclable = 'Y';
+```
+```
+# Python Pandas
+import pandas as pd
+
+def find_products(products: pd.DataFrame) -> pd.DataFrame:
+    df = products[(products['low_fats'] == 'Y') & (products['recyclable'] =='Y')]
+    return df[['product_id']]
 ```
 ## Output
 ```
