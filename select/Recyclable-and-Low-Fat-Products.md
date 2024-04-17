@@ -1,5 +1,5 @@
 # Find Recyclable and Low Fat Products
-\#MySQL
+\#MySQL \#Oracle \#MSSQLServer \#PostgreSQL
 
 [LeetCode](https://leetcode.com/problems/recyclable-and-low-fat-products/?envType=study-plan-v2&envId=top-sql-50)
 
@@ -50,8 +50,14 @@ Table Products:
 ```
 ## Code Solution
 ```
+# MySQL, MSSQL Server, Oracle
 SELECT product_id FROM Products
-WHERE (low_fats = "Y") AND (recyclable = "Y")
+WHERE low_fats = 'Y' AND recyclable = 'Y';
+```
+```
+--- PostgreSQL
+SELECT product_id FROM Products
+WHERE low_fats = 'Y' AND recyclable = 'Y';
 ```
 ## Output
 ```
