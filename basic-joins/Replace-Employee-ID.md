@@ -3,6 +3,10 @@
 
 [LeetCode](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/?envType=study-plan-v2&envId=top-sql-50)
 
+Beats 63% of users using MySQL
+
+<img width="300" alt="image" src="https://github.com/mannythecreator/50-Days-of-SQL/assets/60325078/27415868-f535-41bc-8467-5279db1c1c97">
+
 ```
 Table: Employees
 +---------------+---------+
