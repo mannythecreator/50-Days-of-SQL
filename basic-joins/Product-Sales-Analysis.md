@@ -1,7 +1,12 @@
 # Product Sales Analysis I
-\#MySQL
+\#MySQL \#Oracle
 
 [LeetCode](https://leetcode.com/problems/product-sales-analysis-i/description/?envType=study-plan-v2&envId=top-sql-50)
+
+Beats 95% of Oracle users
+
+<img width="300" alt="Beats 94.73% of users with Oracle" src="https://github.com/mannythecreator/50-Days-of-SQL/assets/60325078/f6078198-0339-410b-898d-ccf9d671cdab">
+
 ```
 Table: Sales
 +-------------+-------+
@@ -64,7 +69,7 @@ Product table:
 ```
 ## Code Solution
 ```
-# MySQL
+# MySQL, Oracle
 SELECT product_name, year, price
 FROM Sales
 LEFT JOIN Product 
