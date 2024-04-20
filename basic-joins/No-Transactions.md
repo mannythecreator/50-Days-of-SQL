@@ -1,11 +1,13 @@
 # Customer Who Visited But Did Not Make Any Transactions
-\#MySQL
+\#MySQL \#MSSQL \#Oracle \#PostgreSQL
 
 [LeetCode](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/description/?envType=study-plan-v2&envId=top-sql-50)
 
-Beats 90% of mySQL users!
+Beats 91% of MySQL users, 92% of MSSQL users, 94% of Oracle users!
 
-<img width="300" alt="Runtime beats 89.88% of users with MySQL" src="https://github.com/mannythecreator/50-Days-of-SQL/assets/60325078/9e968ffc-941b-47ab-82a8-8554951df9db">
+<img width="300" alt="Runtime beats 91.12% of users with MySQL" src="https://github.com/mannythecreator/50-Days-of-SQL/assets/60325078/b681fae0-09c6-477c-9630-e1eb1a580170">
+<img width="300" alt="Runtime beats 94% of users with Orcale" src="https://github.com/mannythecreator/50-Days-of-SQL/assets/60325078/0a668db6-c1aa-4c67-b087-68fd58e5bbce">
+
 
 ```
 Table: Visits
@@ -81,8 +83,8 @@ Table: Transactions
 ```
 ## Code Solution
 ```
-# MySQL
-SELECT DISTINCT customer_id, COUNT(V.visit_id) AS count_no_trans
+# MySQL, MSSQL Server, Oracle, PostgreSQL
+SELECT customer_id, COUNT(V.visit_id) AS count_no_trans
 FROM Visits V
 LEFT JOIN Transactions T ON V.visit_id = T.visit_id
 WHERE V.visit_id NOT IN (SELECT visit_id FROM Transactions)
