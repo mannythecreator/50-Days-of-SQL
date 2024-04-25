@@ -41,3 +41,18 @@ Table: Weather
 | 4  | 2015-01-04 | 30          |
 +----+------------+-------------+
 ```
+## Code Solution
+```
+# MySQL
+SELECT W1.Id
+FROM Weather as W1, Weather as W2
+WHERE DATEDIFF(W1.recordDate, W2.recordDate) = 1 # yesterday, 1 day difference
+AND W1.temperature > W2.temperature; # next day temp greater
+```
+## Output
+```
+| Id |
+| -- |
+| 2  |
+| 4  |
+```
