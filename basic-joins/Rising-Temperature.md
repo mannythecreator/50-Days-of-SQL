@@ -1,5 +1,7 @@
 # Rising Temperature
 
+\#MySQL
+
 [LeetCode](https://leetcode.com/problems/rising-temperature/?envType=study-plan-v2&envId=top-sql-50)
 
 ```
