@@ -1,6 +1,8 @@
 # Find Employee Bonuses Less than $1000
 \#MySQL \#Oracle \#PostgreSQL \#MSSQL
 
+[LeetCode](https://leetcode.com/problems/employee-bonus/?envType=study-plan-v2&envId=top-sql-50)
+
 Beats 89% of MySQL users!
 
 <img width="300" alt="image" src="https://github.com/mannythecreator/50-Days-of-SQL/assets/60325078/ba0cf02b-8f27-4f2d-9df1-0083ff257fba">
