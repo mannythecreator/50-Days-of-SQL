@@ -1,4 +1,4 @@
-# Customer Who Visited But Did Not Make Any Transactions | LEFT JOIN | Creating Columns | Grouping |
+# Customer Who Visited But Did Not Make Any Transactions | LEFT JOIN | Creating Columns | Grouping
 \#MySQL \#MSSQL \#Oracle \#PostgreSQL
 
 [LeetCode](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/description/?envType=study-plan-v2&envId=top-sql-50)
