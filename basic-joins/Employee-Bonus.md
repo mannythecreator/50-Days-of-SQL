@@ -1,4 +1,4 @@
-# Find Employee Bonuses Less than $1000
+# Find Employee Bonuses | LEFT JOIN
 \#MySQL \#Oracle \#PostgreSQL \#MSSQL
 
 [LeetCode](https://leetcode.com/problems/employee-bonus/?envType=study-plan-v2&envId=top-sql-50)
