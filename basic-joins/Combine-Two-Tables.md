@@ -1,4 +1,4 @@
-# Combine Two Tables
+# Combine Two Tables | LEFT JOIN
 \#MySQL
 
 [LeetCode](https://leetcode.com/problems/combine-two-tables/)
