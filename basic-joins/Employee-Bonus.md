@@ -1,4 +1,4 @@
-# Find Employee Bonuses | LEFT JOIN
+# Find Employee Bonuses | LEFT JOIN | Boolean Logic
 \#MySQL \#Oracle \#PostgreSQL \#MSSQL
 
 [LeetCode](https://leetcode.com/problems/employee-bonus/?envType=study-plan-v2&envId=top-sql-50)
