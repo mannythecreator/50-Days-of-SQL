@@ -1,4 +1,4 @@
-# Rising Temperature
+# Rising Temperature | DATEDIFF | One Table
 
 \#MySQL
 
