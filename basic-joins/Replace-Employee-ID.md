@@ -1,4 +1,4 @@
-# Replace Employee ID With The Unique Identifier
+# Replace Employee ID With The Unique Identifier | RIGHT JOIN
 \#MySQL
 
 [LeetCode](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/?envType=study-plan-v2&envId=top-sql-50)
