@@ -50,12 +50,7 @@ Table Products:
 ```
 ## Code Solution
 ```
-# MySQL, MSSQL Server, Oracle
-SELECT product_id FROM Products
-WHERE low_fats = 'Y' AND recyclable = 'Y';
-```
-```
---- PostgreSQL
+# MySQL, MSSQL Server, Oracle, PostgreSQL
 SELECT product_id FROM Products
 WHERE low_fats = 'Y' AND recyclable = 'Y';
 ```
